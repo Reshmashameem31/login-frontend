@@ -1,13 +1,14 @@
 # Login Page Frontend
 
-This is the frontend of the Login-Page project, built with **React** and **Vite**. The app starts with a **Login Page**. After a successful login, the user is redirected to the **Book Finder** page.  
+This is the frontend of the **Login-Page** project, built with **React** and **Vite**.  
+The app starts with a **Login Page**. After a successful login, the user is redirected to the **Book Finder** page.
 
 It connects to a backend API deployed on Render for authentication.
 
 ## Live Deployment
 
-- **Frontend (Vercel):** `[https://login-frontend-bay.vercel.app/]`  
-- **Backend (Render):** `https://login-backend-frw8.onrender.com`
+- **Frontend (Vercel):** [https://login-frontend-bay.vercel.app/](https://login-frontend-bay.vercel.app/)  
+- **Backend (Render):** [https://login-backend-frw8.onrender.com](https://login-backend-frw8.onrender.com)
 
 ## Features
 
