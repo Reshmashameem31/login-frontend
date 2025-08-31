@@ -1,12 +1,32 @@
-# React + Vite
+# Login Page Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the Login-Page project, built with **React** and **Vite**. The app starts with a **Login Page**. After a successful login, the user is redirected to the **Book Finder** page.  
 
-Currently, two official plugins are available:
+It connects to a backend API deployed on Render for authentication.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Deployment
 
-## Expanding the ESLint configuration
+- **Frontend (Vercel):** `[https://login-frontend-bay.vercel.app/]`  
+- **Backend (Render):** `https://login-backend-frw8.onrender.com`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- User login and signup
+- Protected routes (Book Finder accessible only after login)
+- Connects with backend API for authentication
+- Search for books using Google Books API
+- Responsive design with Tailwind CSS
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js installed
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Reshmashameem31/login-frontend.git
