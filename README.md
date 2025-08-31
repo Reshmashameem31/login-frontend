@@ -1,45 +1,23 @@
 # Login Page & Book Finder
 
-This is a full-stack project with a **Login Page** and a **Book Finder** page.  
+This is the frontend of the Login-Page project, built with React and Vite. The app starts with a Login Page. After a successful login, the user is redirected to the Book Finder page.
 
-- Built with **React + Vite** (Frontend)  
-- Backend using **Node.js + Express**  
-- Tailwind CSS for styling  
-- Backend deployed on **Render**  
-- Frontend deployed on **Vercel**  
-
----
+It connects to a backend API (see code in backend repository) for authentication.
 
 ## Live Deployment
 
-- Frontend (Vercel): [Login Frontend](https://login-frontend-bay.vercel.app/)  
-- Backend (Render): [Login Backend](https://login-backend-frw8.onrender.com)  
+- Frontend (Vercel): [https://login-frontend-bay.vercel.app/](https://login-frontend-bay.vercel.app/)
 
----
+## Code Repositories
+
+- Frontend Code: [https://github.com/Reshmashameem31/login-frontend](https://github.com/Reshmashameem31/login-frontend)  
+- Backend Code: [https://github.com/Reshmashameem31/login-backend](https://github.com/Reshmashameem31/login-backend)
 
 ## Features
 
-- User login and signup  
-- Protected routes (Book Finder accessible only after login)  
-- Connects to backend API for authentication  
-- Search for books using **Google Books API**  
-- Responsive design with Tailwind CSS  
+- User login and signup
+- Protected routes (Book Finder accessible only after login)
+- Connects with backend API for authentication
+- Search for books using Google Books API
+- Responsive design with Tailwind CSS
 
----
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js installed  
-- npm or yarn  
-
-### Installation
-
-#### Frontend
-
-```bash
-git clone https://github.com/Reshmashameem31/login-frontend.git
-cd login-frontend
-npm install
-npm run dev
